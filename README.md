@@ -1,4 +1,4 @@
-## NEW VERSION A MONTH AWAY. No Etherium, no smart contracts, arbitraty comutation (Gas) is not needed to keep it secure and running, non simulated Decentraliziation, fully concurent and secure by default, with seemless integration.  
+## NEW VERSION A MONTH AWAY. No Etherium, no smart contracts, arbitraty computation (Gas) is not needed to keep it secure and running, non simulated decentraliziation, fully concurent and secure by default, with seemless integration.  
 ## Read the README_NEXT for more details. 
 
 ## Whoah, that sounds like I've got a tall order. Do I have what it takes? Come back next week and we'll both find out. :)
