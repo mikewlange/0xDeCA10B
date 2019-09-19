@@ -1,7 +1,9 @@
-## COMMING SOON. Fully Decentralized, 99.99% "off block" if you choose, no need for gas to keep it crawling and secure and no smart contracts
+## COMMING SOON. 
+#### NEW version a month (or two) away. 
+**Goodbye Etherium, Goodbye smart contracts, Piss off arbitrary computation (Gas) to keep it running, Hello non simulated decentralization, Hello concurrency, Hello secured by default, Hello seamless integration with any NN library, and no not leave the room incentive mechanism**
+ 
+## More info at the bottom of the page. 
 
-### More info below Microsofts words. 
-### NOTE: I'm passonate abou this stuff. Don't mistake that for pissyness. Conceptually, is the future of not only data processing, but the internet itself. And Microsoft is pretty much always on point.
 
 
 # Decentralized & Collaborative AI on Blockchain
@@ -105,24 +107,23 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 ----------------------------------------------------------------------------------------------------
 
 ## My apologies Microsoft for not reaching out directly before I write this. 
-But I'm a lttile hurt. I think Interperet is the best thing since sliced bread, 
-CNTK is a no brainer and ONIX will hopfully save as much electrity Bitcoin and Etherium used. 
+But I'm a little hurt. I think Interpret is the best thing since sliced bread, CNTK is a no brainer and Onyx will hopefully save as much electrify Bitcoin and Etherium used.
 
 # While this is a brilliant project, engineers should not build NN's on a network where 
 1. Could lose money sending bad data 
 2. The heath of the network is tied to computation
-3. it's fucking gas powered 
+3. It's fucking gas powered 
 4. no parallelization 
-5. A drop in price will screw the miners and open the network up to DDOS attacks. And via DAO's forck the chain forever. 
-6. And this is the one that sould have anyone worries. concurrency. It cannot exist within the chain. 
+5. A drop in price will screw the miners and open the network up to DDOS attacks. And via DAO's fork the chain forever. 
+6. And this is the one that should have anyone worries. Concurrency. It cannot exist within the chain. 
 
-If that sounds like the future of the internet, the finacial system and our appications, I woudn't even smoke whatever you're smoking. 
+If that sounds like the future of the internet, the financial system and our applications, I wound't even smoke whatever you're smoking. 
 
-I will explain in deatil as I work on this code over the next few months. And I'll likly take this down. I hate complaining. But somtimes, you have to even if it's only for you. 
+I will explain in detail as I work on this code over the next few months. And I'll likely take this down. I hate complaining. But sometimes, you have to even if it's only for you. 
 
 ## Here is what you need
 
-A small is a small, easy, and fast data sycronization protocol plus storage system that runs everywhere. While smart contract are easy to write, you need to focus on the data that needs to stored, loaded, and and seemlessly shared without worrying about servers, network calls, or tracking offline changes or concurrency conflicts. 
+A small is a small, easy, and fast data synchronization protocol plus storage system that runs everywhere. While smart contract are easy to write, you need to focus on the data that needs to stored, loaded, and seamlessly shared without worrying about servers, network calls, or tracking offline changes or concurrency conflicts. 
 
 ## How about this?
 
@@ -136,11 +137,10 @@ When a browser peer asks for data, it'll merge the reply with its own data using
 
 ## But that im impossible without being an AP system?
 
-That's the point and a mute one. What you're lookling for is Strong not Eventual consistancy, right? Wrong. That system is not highly available. RThink abou it, if there is a network partition (I.e., if any one peer cannot be reached) the data cannot be said to be consistent without waiting an indefinite amount time. 
+That's the point and a mute one. What you're looking for is Strong not Eventual consistency, right? Wrong. That system is not highly available. Think about it, if there is a network partition (I.e., if anyone peer cannot be reached) the data cannot be said to be consistent without waiting an indefinite amount time. 
 
-You don't need a locking system. The new new reserch is regrads to Convergent Replicated Data Types (CRDTs), Directed Acyclic Graphs (DAGs), Operational Transformation (a WOOT), and possibly Stellar. Look, if you're going to call somthing decentralised, don't centralise it. You define "dependent causality" explicitly in the data, rather than the protocol - and thus should be preferred since they (CRDT, DAG;s and WOOTs) give you some form of linearizability without sacrificing the advantages of a peer-to-peer system. Which is the whole fucking point. See you when this works. 
+You don't need a locking system. The new research is regards to Convergent Replicated Data Types (CRTs), Directed Acyclic Graphs (DAGs), Operational Transformation (a WOOT), and possibly Stellar. Look, if you're going to call something decentralized, don't centralize it. You define "dependent causality" explicitly in the data, rather than the protocol — and thus should be preferred since they (CRDT, DAG;s and WOOTs) give you some form of linearizability without sacrificing the advantages of a peer-to-peer system. Which is the whole fucking point. See you when this works. 
 
-## FYI, this code it writen. Now I have to put my money wher my mouht is and replace etherium. 
+## FYI, this code it written. Now I have to put my money wher my mouht is and replace etherium. 
 
-SIDE NOTE: This exact concept was my next personal project. It's way over due. But since Microsoft is leaving everyone in the dust as far as AIML goes, I'm not suprised that this is already testable and when i replace the simple part, microsoft with have the 'set it and forget it'  offline first, fully distributed 
-
+SIDE NOTE: This exact concept was my next personal project. It's way over due. But since Microsoft is leaving everyone in the dust as far as AIML goes, I'm not surprised that this is already testable and when i replace the simple part, Microsoft with have the 'set it and forget it' offline first, fully distributed 
