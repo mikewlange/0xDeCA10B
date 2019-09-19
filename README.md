@@ -1,4 +1,7 @@
-## NEW VERSION A MONTH AWAY. No Etherium, no smart contracts, arbitraty computation (Gas) is not needed to keep it secure and running, non simulated decentraliziation, fully concurent and secure by default, with seemless integration.  
+## Before I replace Etherium, HUGE shout out to Mr. Harris and Microsoft on this one. My changes have nothing to do with Microsoft's work. This is how you build a Dapp using best practices. My changes are simply practicle.....
+
+## NEW version a month (or two) away. 
+## Goodbye Etherium, Goodbye smart contracts, Piss off arbitrary computation (Gas) to keep it running, Hello non simulated decentralization, Hello concurrency, Hello secured by default, Hello seamless integration with any NN library, and no not leave the room incentive mechanism
 ## Read the README_NEXT for more details. 
 
 ## Whoah, that sounds like I've got a tall order. Do I have what it takes? Come back next week and we'll both find out. :)
