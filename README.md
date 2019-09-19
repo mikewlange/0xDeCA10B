@@ -1,12 +1,13 @@
-#### Before I replace Etherium, HUGE shout out to Mr. Harris and Microsoft on this one. My changes have nothing to do with Microsoft's work. This is how you build a Dapp w/ an IncentiveMechanism(IM). In theory, you get paid to build your NN so all network participants enjoy free forcasts, if your model dosn't suck. Fyi, this is how currency works by default in ~120 years. With textile fabrication at no charge and the decentralization of communication and commerce via trustless networks, add no crap to buy and the defualt currency is intellectual capital traded just like this. It sounds odd now, but trust me..  
+#### Before I replace Etherium, HUGE shout out to Mr. Harris and Microsoft on this one. 
+My changes have nothing to do with Microsoft's work. **This is how you build a Dapp w/ an IncentiveMechanism(IM)**. In theory, you get paid to build your NN so all network participants enjoy free forcasts, if your model dosn't suck. **Fyi, this is how currency works by default in ~120 years**. With textile fabrication at no charge and the decentralization of communication and commerce via trustless networks, add no crap to buy and the defualt currency is intellectual capital traded just like this. It sounds odd now, but trust me..  
 
-## My changes are simply practical for production use.....
+### My changes are simply practical for production use.....
 
-### NEW version a month (or two) away. 
-### Goodbye Etherium, Goodbye smart contracts, Piss off arbitrary computation (Gas) to keep it running, Hello non simulated decentralization, Hello concurrency, Hello secured by default, Hello seamless integration with any NN library, and no not leave the room incentive mechanism
+#### NEW version a month (or two) away. 
+**Goodbye Etherium, Goodbye smart contracts, Piss off arbitrary computation (Gas) to keep it running, Hello non simulated decentralization, Hello concurrency, Hello secured by default, Hello seamless integration with any NN library, and no not leave the room incentive mechanism**
 ### Read the README_NEXT for more details. 
 
-### Whoah, that sounds like I've got a tall order. Do I have what it takes? Come back next week and we'll both find out. :)
+***Whoah, sounds like I've got a tall order. Do I have what it takes? Come back next week and we'll find out.***
 
 
 # Decentralized & Collaborative AI on Blockchain
