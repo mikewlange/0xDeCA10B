@@ -1,4 +1,6 @@
-### Before I replace Etherium, HUGE shout out to Mr. Harris and Microsoft on this one. My changes have nothing to do with Microsoft's work. This is how you build a Dapp w/ an Insentive Mechanism. In theory, you can get paid to build your net that others reap free menefits from. My changes are simply practical for production use.....
+#### Before I replace Etherium, HUGE shout out to Mr. Harris and Microsoft on this one. My changes have nothing to do with Microsoft's work. This is how you build a Dapp w/ an IncentiveMechanism(IM). In theory, you get paid to build your NN so that that all network participants enjoy free forcasts, if it's any good. Fyi, this is how currency works by default in ~120 years. With textile fabrication at no charge and the decentralization of communication and commerce via trustless networks. With no crap to buy, the defualt currency is intellectual capital traded just like this. It sounds odd now, but trust me..  
+
+## My changes are simply practical for production use.....
 
 ### NEW version a month (or two) away. 
 ### Goodbye Etherium, Goodbye smart contracts, Piss off arbitrary computation (Gas) to keep it running, Hello non simulated decentralization, Hello concurrency, Hello secured by default, Hello seamless integration with any NN library, and no not leave the room incentive mechanism
