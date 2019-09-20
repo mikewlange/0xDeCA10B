@@ -1,6 +1,6 @@
 ## COMMING SOON. 
 #### NEW version a month (or two) away. 
-**Goodbye Etherium, Goodbye Solidity, Goodbye arbitrary computation (Gas) to power the network, Hello true decentralization, Hello concurrency, hello i don't have to worry about the data eny more, Hello secured by default, Hello seamless integration with any language and js, And no not leave the room incentive mechanism**
+**Goodbye Etherium, Goodbye Solidity, Goodbye arbitrary computation (Gas) to power the network, Hello true decentralization, Hello concurrency, hello i don't have to worry about the data any more, Hello secured by default, Hello seamless integration with any language and js, And no not leave the room incentive mechanism HAM is on it's way**
  
 ## More info at the bottom of the page. 
 
