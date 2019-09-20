@@ -143,14 +143,7 @@ When a browser/phone/iot peer asks for data, ***it'll merge the reply with its o
 5. No need to fart back and forth to keep hackers out and the network alive. 
 6. No more erc-20 and all that baggage. 
 
-### Spoiler alertL:
-# `CRDT is the e=mc2 of decentralization.` Works everywhere exceopt on a qbit archtecture, and it's 100% determinitic without mechacs like a timestamp to call the shots. 
-
-** some of the big loser are **
-Directed Acyclic Graphs (DAGs) sorry, simple pair graphs fit any storage model. 
-Operational Transformation (a WOOT), close, nblot no
-Blockchain (that's not Stellar) just epicircles. 
-
+### Spoiler alert:
 
 ***You don't need a locking system to have group consensus on a transation.***
 let that sink in. 
