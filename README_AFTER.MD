@@ -107,10 +107,23 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 
 # While this is a brilliant project, and theortically this is a pefect model of an IncentiveMechanism.
 
+*** this is the wrong usecase for Strong consistancy.***
+
+Why? 
+
+1. One - it's not. it's acheved ontop of a messaging system that is eventually consistent. These messages broadcast a "lock" request to all peers for the data to be modified (this example ignores potential lock request conflicts). 
+   a. The peers "ack" back accepting the data lock, meaning they will not allow local users to read or write on that data, resulting in high latency for the user.
+   b.  Once the original peers has received unanimous approval, it will then write the data and wait till it hears back success from the peers
+   Thw things can be deciuded. 
+   1. That system is not highly available, if there is a network partition (aka if any one peer cannot be reached) the data cannot be said to be consistent without waiting an indefinite amount time.
+   2. Strong consistency is an emergent property of an eventually consistent messaging system. (ohh sounds promising .. wrong, canb't have locks)
+   
+Some other things to note about this system as is
+   
 1. Could lose money sending bad data. And All Stocastic data is bad data. 
-2. The heath of the network is tied to computation. And if the computation cycles are training nural nets, that's a lot of gas. You won't see that testing 30 clients. 
+2. The heath of the network is tied to computation.
 3. no parallelization it the show stopper. 
-4. This is esoteric, but it's happend so it's worth mentions. A drop in price will screws the miners and open the network up to DDOS attacks.
+4. This is esoteric, but it's happend so it's worth mentions. A drop in price will screws the miners and open the network up to DDOS attacks since Eherium simply cannot stop. 
 
 ## Stop Complaing. What next? 
 
@@ -128,7 +141,7 @@ When a browser/phone/iot peer asks for data, ***it'll merge the reply with its o
 3. If your server fails, you can still recover your data from the browsers. 
 4. This makes the loss of important information nearly impossible, as all copies of the data would need to be destroyed before it is lost.
 5. No need to fart back and forth to keep hackers out and the network alive. 
-6. your tied to erc-20 and all that baggage. 
+6. No more erc-20 and all that baggage. 
 
 ### Spoiler alertL:
 # `CRDT is the e=mc2 of decentralization.` Works everywhere exceopt on a qbit archtecture, and it's 100% determinitic without mechacs like a timestamp to call the shots. 
