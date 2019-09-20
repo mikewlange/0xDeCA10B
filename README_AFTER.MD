@@ -106,41 +106,41 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
-## My apologies Microsoft for not reaching out directly before I write this. 
-But I'm a little hurt. I think Interpret is the best thing since sliced bread, CNTK is a no brainer and Onyx will hopefully save as much electrify Bitcoin and Etherium used.
+# While this is a brilliant project, and theortically this is a pefect model of an IncentiveMechanism.
 
-# While this is a brilliant project, engineers should not build NN's on a network where 
-1. Could lose money sending bad data 
-2. The heath of the network is tied to computation
-3. It's fucking gas powered 
-4. no parallelization 
-5. A drop in price will screw the miners and open the network up to DDOS attacks. And via DAO's fork the chain forever. 
-6. And this is the one that should have anyone worries. Concurrency. It cannot exist within the chain. 
+1. Could lose money sending bad data. And All Stocastic data is bad data. 
+2. The heath of the network is tied to computation. And if the computation cycles are training nural nets, that's a lot of gas. You won't see that testing 30 clients. 
+3. no parallelization it the show stopper. 
+4. This is esoteric, but it's happend so it's worth mentions. A drop in price will screws the miners and open the network up to DDOS attacks.
 
-If that sounds like the future of the internet, the financial system and our applications, I wound't even smoke whatever you're smoking. 
+## Stop Complaing. What next? 
 
-I will explain in detail as I work on this code over the next few months. And I'll likely take this down. I hate complaining. But sometimes, you have to even if it's only for you. 
+```Here is what you need```
 
-## Here is what you need
+# The Solution
+***A small is a small, easy, and fast data synchronization protocol plus storage system that runs everywhere. While smart contract are easy to write, you need to focus on the data that needs to stored, loaded, and seamlessly shared without worrying about servers, network calls, or tracking offline changes or concurrency conflicts. ***
 
-A small is a small, easy, and fast data synchronization protocol plus storage system that runs everywhere. While smart contract are easy to write, you need to focus on the data that needs to stored, loaded, and seamlessly shared without worrying about servers, network calls, or tracking offline changes or concurrency conflicts. 
+## How does that really help?
 
-## How about this?
-
-When a browser peer asks for data, it'll merge the reply with its own data using a CRDT, then cache the result. This means that:
+When a browser/phone/iot peer asks for data, ***it'll merge the reply with its own data using a CRDT***, then cache the result. This means that:
 
 1. The next time the browser asks for that data, the reply is instant, even when offline.
 2. Data is replicated on each browser that asked for it.
-3. If your server fails, you can still recover your data from the browsers.
+3. If your server fails, you can still recover your data from the browsers. 
 4. This makes the loss of important information nearly impossible, as all copies of the data would need to be destroyed before it is lost.
 5. No need to fart back and forth to keep hackers out and the network alive. 
+6. your tied to erc-20 and all that baggage. 
 
-## But that im impossible without being an AP system?
+### Spoiler alertL:
+# `CRDT is the e=mc2 of decentralization.` Works everywhere exceopt on a qbit archtecture, and it's 100% determinitic without mechacs like a timestamp to call the shots. 
 
-That's the point and a mute one. What you're looking for is Strong not Eventual consistency, right? Wrong. That system is not highly available. Think about it, if there is a network partition (I.e., if anyone peer cannot be reached) the data cannot be said to be consistent without waiting an indefinite amount time. 
+** some of the big loser are **
+Directed Acyclic Graphs (DAGs) sorry, simple pair graphs fit any storage model. 
+Operational Transformation (a WOOT), close, nblot no
+Blockchain (that's not Stellar) just epicircles. 
 
-You don't need a locking system. The new research is regards to Convergent Replicated Data Types (CRTs), Directed Acyclic Graphs (DAGs), Operational Transformation (a WOOT), and possibly Stellar. Look, if you're going to call something decentralized, don't centralize it. You define "dependent causality" explicitly in the data, rather than the protocol — and thus should be preferred since they (CRDT, DAG;s and WOOTs) give you some form of linearizability without sacrificing the advantages of a peer-to-peer system. Which is the whole fucking point. See you when this works. 
 
-## FYI, this code it written. Now I have to put my money wher my mouht is and replace etherium. 
+***You don't need a locking system to have group consensus on a transation.***
+let that sink in. 
 
-SIDE NOTE: This exact concept was my next personal project. It's way over due. But since Microsoft is leaving everyone in the dust as far as AIML goes, I'm not surprised that this is already testable and when i replace the simple part, Microsoft with have the 'set it and forget it' offline first, fully distributed 
+More to come!! Staytuned. 
