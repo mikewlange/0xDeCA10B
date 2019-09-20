@@ -1,9 +1,8 @@
 ## COMMING SOON. 
 #### NEW version a month (or two) away. 
-**Goodbye Etherium, Goodbye smart contracts, Piss off arbitrary computation (Gas) to keep it running, Hello non simulated decentralization, Hello concurrency, Hello secured by default, Hello seamless integration with any NN library, and no not leave the room incentive mechanism**
+**Goodbye Etherium, Goodbye Solidity, Goodbye arbitrary computation (Gas) to power the network, Hello true decentralization, Hello concurrency, hello i don't have to worry about the data eny more, Hello secured by default, Hello seamless integration with any language and js, And no not leave the room incentive mechanism**
  
 ## More info at the bottom of the page. 
-
 
 
 # Decentralized & Collaborative AI on Blockchain
