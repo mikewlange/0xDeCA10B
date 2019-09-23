@@ -1,5 +1,5 @@
 #### Before I replace Etherium, HUGE shout out to Mr. Harris and Microsoft on this one. 
-My changes have nothing to do with Microsoft's work. **This is how you build a Dapp w/ an IncentiveMechanism(IM)**. In theory, you get paid to build your NN so all network participants enjoy free forcasts, if your model dosn't suck. **Fyi, this is how currency works by default in ~120 years**. With textile fabrication at no charge and the decentralization of communication and commerce via trustless networks, add with no crap to buy and the defualt currency is intellectual capital traded just like this. It sounds odd now, but trust me..  
+My changes have nothing to do with Microsoft's work. **This is how you build a Dapp w/ an IncentiveMechanism(IM)**. In theory, you get paid to build your NN so all network participants enjoy free forecast if your model dosn't suck. **Fyi, this is how currency works by default in ~120 years**. With textile fabrication at no charge and the decentralization of communication and commerce via trustless networks p2p takes on a whole new meaning. Add with no crap left to buy and the defualt currency is intellectual capital just like this. It sounds odd today, yet minus the fabrication and we are already there. 
 
 ### My changes are simply practical for production use.....
 
